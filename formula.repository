@@ -1,0 +1,8 @@
+\form#0:$k$
+\form#1:$m$
+\form#2:$n$
+\form#3:$p$
+\form#4:\[ p = \left[1 - \left(1 - \frac{1}{m}\right)^{kn}\right]^k \]
+\form#5:\[ n' = -\frac{m}{k} \ln\left(1 - \frac{X}{m}\right) \]
+\form#6:\[ m = -\frac{n \ln p}{(\ln 2)^2} \]
+\form#7:\[ k = \frac{m}{n} \ln 2 \]
