@@ -1,0 +1,16 @@
+*~
+*.swp
+*.orig
+*.kdev4
+build*
+debug*
+release*
+.kdev*
+*.kdev4
+packages/
+.directory
+.idea
+.vs
+x64/
+*sdf
+CMakeLists.txt.user
