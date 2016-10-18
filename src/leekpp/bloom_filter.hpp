@@ -90,7 +90,13 @@ struct bloom_filter_params
     }
 };
 
-/** A probabilistic data structure which is extremely space efficient, but has the disadvantage of
+/** A probabilistic data structure which is extremely space efficient, but has the disadvantage of having false
+ *  positives.
+ *
+ *  \tparam T The type of value this Bloom filter is meant to store.
+ *  \tparam TMixer A mixing function -- must meet the requirements of a Mixer (see \c basic_mixer).
+ *  \tparam TStorage A block-based container to store the elements -- must meet the requirements of a Storage (see
+ *   \c basic_storage).
  *
  *  \see https://en.wikipedia.org/wiki/Bloom_filter
 **/
